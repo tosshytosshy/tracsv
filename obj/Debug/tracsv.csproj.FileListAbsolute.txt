@@ -1,0 +1,7 @@
+C:\Users\toshi\source\repos\tracsv\tracsv\obj\Debug\tracsv.csprojAssemblyReference.cache
+C:\Users\toshi\source\repos\tracsv\tracsv\obj\Debug\tracsv.csproj.CoreCompileInputs.cache
+C:\Users\toshi\source\repos\tracsv\tracsv\bin\Debug\tracsv.exe.config
+C:\Users\toshi\source\repos\tracsv\tracsv\bin\Debug\tracsv.exe
+C:\Users\toshi\source\repos\tracsv\tracsv\bin\Debug\tracsv.pdb
+C:\Users\toshi\source\repos\tracsv\tracsv\obj\Debug\tracsv.exe
+C:\Users\toshi\source\repos\tracsv\tracsv\obj\Debug\tracsv.pdb
