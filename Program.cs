@@ -14,15 +14,10 @@ namespace tracsv
         static void Main(string[] args)
         {
 
-            DateTime dt = DateTime.Now;
-            string MyTimeStamp = dt.ToString("yyyy/MM/dd HH:mm:ss");
-
-
             Ping pingSender = new Ping();
             PingOptions options = new PingOptions();
 
-            
-            // Create a buffer of 32 bytes of data to be transmitted.
+            // Create a buffer of data to be transmitted.
             string data = "Hi Transit router. Tell me RoundtripTime.";
             byte[] buffer = Encoding.ASCII.GetBytes(data);
             int timeout = 3000;
@@ -33,7 +28,7 @@ namespace tracsv
             string myType;
             long myLinkText;
 
-            
+            //This is CSV header
             Console.WriteLine("timestamp,from,to,linktext,type");
 
             for (int i = 1; i <= myTTL; i++)
@@ -107,7 +102,7 @@ namespace tracsv
                     default:
 
                         //Console.WriteLine("Here is {0}. Status is {1}", i, reply.Status.ToString());
-                        Console.ReadLine();
+                        //Console.ReadLine();
 
                         break;
 
@@ -126,7 +121,7 @@ namespace tracsv
                 }
             }
 
-            return "duumy IP";
+            return "My Computer";
 
             //throw new Exception("No network adapters with an IPv4 address in the system!");
         }
